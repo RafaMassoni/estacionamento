@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:6033/estacionamento
+    username: root
+    password: sft6033
+  jpa:
+    showSql: true
+    hibernate:
+      ddl-auto: update
